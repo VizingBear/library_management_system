@@ -59,6 +59,7 @@ def find_book():
     if not books:
         print('-----Книги не найдены----')
         return None
+    print(books)
 
 
 def change_book():
